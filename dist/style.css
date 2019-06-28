@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(240deg, #a53b3b, #d30b0b);
+  height: 100vh;
+}
+
+.entry {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  background-color: #ff0000;
+  color: aquamarine;
+}
+
+.para {
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20rem;
+  margin: auto;
+}
+
+.game {
+  display: none;
+}
+
+.yes,
+.no {
+  border: none;
+  width: 100%;
+  height: 2rem;
+  margin-bottom: 3em;
+}
+
+.gameE {
+  display: none;
+}
+
+.ta {
+  display: none;
+}
