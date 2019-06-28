@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Guess a number</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="entry">
+      Hello, <span class="name" contenteditable="true">Krishna</span>
+    </h1>
+    <div class="entered">
+      <p class="para">Do you wanna play this game</p>
+      <button class="yes">Yes !</button>
+      <button class="no">No .</button>
+      <span class="oh"></span>
+    </div>
+    <div class="gameE">
+      <p>I chose a random no. between 0 and 10 , could you guess it ?</p>
+      <button id="yes">Yes</button>
+      <button id="no">No</button>
+    </div>
+    <span class="ohno"></span>
+    <div class="game">
+      <form class="form">
+        <input
+          placeholder="enter your number here.."
+          type="number"
+          class="input"
+        />
+      </form>
+
+      <p class="result"></p>
+      <button class="ta">try again</button>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
